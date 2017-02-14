@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:columnCount="4"
+        app:useDefaultMargins="true"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/open"
+            android:contentDescription="@string/open"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/textView_open"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="3"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/mkt_cap"
+            android:contentDescription="@string/mkt_cap"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/textView_mkt_cap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="3"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/high"
+            android:contentDescription="@string/high"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/textView_high"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="3"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/pe_ratio"
+            android:contentDescription="@string/pe_ratio"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/textView_pe_ratio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="3"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/low"
+            android:contentDescription="@string/low"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/textView_low"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="3"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/div_yield"
+            android:contentDescription="@string/div_yield"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="1"
+            />
+
+        <TextView
+            android:id="@+id/textView_div_yield"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_columnWeight="3"
+            />
+
+    </android.support.v7.widget.GridLayout>
+
+
+</FrameLayout>

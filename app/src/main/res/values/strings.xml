@@ -1,0 +1,30 @@
+<resources>
+  <string name="app_name" translatable="false">Stock Hawk</string>
+
+  <string name="action_example" translatable="false">Example action</string>
+
+  <string name="action_settings" translatable="true">Settings</string>
+  <string name="action_change_units" translatable="true">Change Units</string>
+  <string name="symbol_search" translatable="true">Symbol Search</string>
+  <string name="content_test" translatable="true">Search for a Stock Symbol</string>
+  <string name="input_hint" translatable="true">Stock Symbol</string>
+  <string name="input_prefill" translatable="false"> </string>
+  <string name="network_toast" translatable="true">Uh-oh! This app requires an internet connection</string>
+
+
+  <string name="low" translatable="false">Low</string>
+  <string name="high" translatable="false">High</string>
+  <string name="open" translatable="false">Open</string>
+  <string name="mkt_cap" translatable="false">Mkt Cap</string>
+  <string name="pe_ratio" translatable="false">P/E Ratio</string>
+  <string name="div_yield" translatable="false">Div Yield</string>
+
+  <string name="stock_exists" translatable="true">This stock is already saved!"</string>
+
+  <string name="five_days" translatable="true">5 Days</string>
+  <string name="one_month" translatable="true">1 Month</string>
+  <string name="six_months" translatable="true">6 Months</string>
+  <string name="one_year" translatable="true">1 Year</string>
+
+  <string name="add_new_stock" translatable="true">Add new stock</string>
+</resources>
